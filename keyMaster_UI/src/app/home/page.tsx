@@ -1,56 +1,56 @@
-import Header from "@/components/header/header";
-import Sidebar from "@/components/sidebar/sidebar";
-import React from "react";
+import Header from '@/components/header/header';
+import Sidebar from '@/components/sidebar/sidebar';
+import React from 'react';
 
 const Home: React.FC = () => {
   return (
     <div>
       <Sidebar />
-      <div className="p-4 sm:ml-64">
-        <div className="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
-          <div className="grid grid-cols-3 gap-4 mb-4">
-            <div className="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-              <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
+      <div className='p-4 sm:ml-64'>
+        <div className='rounded-lg border-2 border-dashed border-gray-200 p-4 dark:border-gray-700'>
+          <div className='mb-4 grid grid-cols-3 gap-4'>
+            <div className='flex h-24 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+              <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
             </div>
-            <div className="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-              <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
+            <div className='flex h-24 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+              <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
             </div>
-            <div className="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
-              <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
-            </div>
-          </div>
-          <div className="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-            <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
-          </div>
-          <div className="grid grid-cols-2 gap-4 mb-4">
-            <div className="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
-            </div>
-            <div className="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
-            </div>
-            <div className="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
-            </div>
-            <div className="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
+            <div className='flex h-24 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+              <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
             </div>
           </div>
-          <div className="flex items-center justify-center h-48 mb-4 rounded bg-gray-50 dark:bg-gray-800">
-            <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          <div className='mb-4 flex h-48 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+            <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
+          <div className='mb-4 grid grid-cols-2 gap-4'>
+            <div className='flex h-28 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+              <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
             </div>
-            <div className="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
+            <div className='flex h-28 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+              <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
             </div>
-            <div className="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
+            <div className='flex h-28 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+              <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
             </div>
-            <div className="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-              <p className="text-2xl text-gray-400 dark:text-gray-500">+</p>
+            <div className='flex h-28 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+              <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
+            </div>
+          </div>
+          <div className='mb-4 flex h-48 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+            <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
+          </div>
+          <div className='grid grid-cols-2 gap-4'>
+            <div className='flex h-28 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+              <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
+            </div>
+            <div className='flex h-28 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+              <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
+            </div>
+            <div className='flex h-28 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+              <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
+            </div>
+            <div className='flex h-28 items-center justify-center rounded bg-gray-50 dark:bg-gray-800'>
+              <p className='text-2xl text-gray-400 dark:text-gray-500'>+</p>
             </div>
           </div>
         </div>
