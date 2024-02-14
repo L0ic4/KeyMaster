@@ -54,7 +54,7 @@ const About = () => {
             <p className='mx-auto text-base leading-relaxed lg:w-2/3'>
               Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
               gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them man bun deep jianbing selfies heirloom prism
+              havent heard of them man bun deep jianbing selfies heirloom prism
               food truck ugh squid celiac humblebrag.
             </p>
           </div>
@@ -157,10 +157,11 @@ const About = () => {
           <div className='mt-10 flex flex-col items-center justify-center space-x-0  space-y-12 md:flex-row md:space-x-8 md:space-y-0'>
             <div className='rounded-xl bg-[#FFFBEC]'>
               <div className='flex w-96 translate-x-4 translate-y-4 flex-col rounded-xl bg-white p-8 shadow-xl md:w-auto'>
-                <img
+                <Image
+                  alt='test'
                   src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Ice_logo.svg/138px-Ice_logo.svg.png?20191213230535'
                   className='w-8'
-                ></img>
+                />
                 <div className='mt-3 text-lg font-semibold'>
                   Ice Mobile 10GB
                 </div>
@@ -178,10 +179,11 @@ const About = () => {
 
             <div className='rounded-xl bg-[#F9ECFF]'>
               <div className='flex w-96 translate-x-4 translate-y-4 flex-col rounded-xl bg-white p-8 shadow-xl md:w-auto'>
-                <img
+                <Image
+                  alt=' test3'
                   src='https://www.dstny.se/app/uploads/telia_pp_rgb.png.webp'
                   className='w-12'
-                ></img>
+                />
                 <div className='mt-3 text-lg font-semibold'>
                   Telia Mobil 15GB
                 </div>
@@ -201,10 +203,11 @@ const About = () => {
 
             <div className='rounded-xl bg-[#ECEEFF]'>
               <div className='flex w-96 translate-x-4 translate-y-4 flex-col rounded-xl bg-white p-8 shadow-xl md:w-auto'>
-                <img
+                <Image
+                  alt=' test2'
                   src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Telenor_Logo.svg/1600px-Telenor_Logo.svg.png'
                   className='w-12'
-                ></img>
+                />
                 <div className='mt-3 text-lg font-semibold'>
                   Telenor Next Fast
                 </div>
@@ -238,7 +241,7 @@ const About = () => {
               href='https://flowbite.com/'
               className='mb-4 flex items-center sm:mb-0'
             >
-              <img
+              <Image
                 src='https://flowbite.com/docs/images/logo.svg'
                 className='mr-3 h-8'
                 alt='Flowbite Logo'
